@@ -13,7 +13,7 @@ usage:
     delete *[task id]
     Note: if you don't know task ID, use "list" command to get ID.
 ___________________________________________________________________________________________________________________
-lsit: Lists tasks in the file. There are different flags you can use such as "todo", "done", and "in-progress".
+list: Lists tasks in the file. There are different flags you can use such as "todo", "done", and "in-progress".
 usage:
     list - use this to see all tasks
     list **[status] - use this to see tasks of a specific status. For example:
