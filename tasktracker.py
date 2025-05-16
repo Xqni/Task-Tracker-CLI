@@ -176,10 +176,13 @@ def get_description(args, func):
                 print("\nNew task status needed.\n")
 
     else:
-        if func == "update":
+        if func == "add":
+            print("\nTask description needed.\n")
+        elif func == "update":
             print("\nTask id and description needed.\n")
         elif func == "mark":
             print("\nTask id and new status needed.\n")
+
     main()
 
 
