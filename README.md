@@ -16,16 +16,16 @@ task-cli: add I need to publish this project.
 Output: Task added successfully (ID: 1)
 
 task-cli: list
-***This will list all tasks in 'tasks.json' file***
+"""This will list all tasks in 'tasks.json' file"""
 
 task-cli: update 1 I have uploaded this project to GitHub
-***This will update the description of the task 1***
+"""This will update the description of the task 1"""
 
 task-cli: mark 1 done
-***This will change the status of the task 1 to done***
+"""This will change the status of the task 1 to done"""
 
 task-cli: delete 1
-***This will delete task 1***
+"""This will delete task 1"""
 ```
 To see a detailed documentation (beginner level), please refer to the help file in the repository.
 
