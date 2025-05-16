@@ -234,15 +234,17 @@ def get_second_element(args, func):
 def help_file():
     filename = "help.txt"
     if os.path.exists(filename):
+        print("Help file found...printing...\n\n\n")
         with open(filename, "r") as f:
             for line in f:
                 print(line)
         print()
         main()
     else:
-        url = ""
+        print("\nDownloading help file...please wait before using help\n")
+        url = "https://github.com/Xqni/taskcli/blob/main/help.txt"
         filename = requests.get(url)
-        help_file()
+        main()
 
 
 def main():
@@ -276,7 +278,7 @@ def main():
                 print("\nInvalid syntax. Type 'help' or '-h' if need help.\n")
                 continue
     except KeyboardInterrupt:
-        print("\n\nExisting the program. User interruption.\n")
+        print("\nExisting the program. User interruption.\n")
         sys.exit(1)
     except IndexError:
         main()
@@ -285,3 +287,4 @@ def main():
 if __name__ == "__main__":
     print("\nWelcome, to get started type 'help' or '-h' to view help file.\n")
     main()
+    help_file()
