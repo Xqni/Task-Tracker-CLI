@@ -1,0 +1,38 @@
+Welcome!!!
+
+Thank you for checking my project, it took me a lot of time to make this iteration.
+
+* means parameter is needed.
+** means parameter is optional.
+___________________________________________________________________________________________________________________
+
+Commands available:
+
+add: Adds a task to the tasks file.
+usage:
+    add [*task description]
+___________________________________________________________________________________________________________________
+
+delete: Deletes a task from the list. BE CAREFUL, there is no way to recover deleted tasks.
+usage:
+    delete *[task id]
+    Note: if you don't know task ID, use "list" command to get ID.
+___________________________________________________________________________________________________________________
+
+lsit: Lists tasks in the file. There are different flags you can use such as "todo", "done", and "in-progress".
+usage:
+    list - use this to see all tasks
+    list **[status] - use this to see tasks of a specific status. For example:
+        list todo - to see all tasks with status "todo"
+___________________________________________________________________________________________________________________
+
+mark: Updates the status of a task.
+usage:
+    mark *[task id] *[new task status]
+    Note: if you don't know task ID, use "list" command to get ID.
+___________________________________________________________________________________________________________________
+
+update: Updates description of a task. To update status use "mark" command instead.
+usage:
+    udpate *[task id] *[new task description]
+    Note: if you don't know task ID, use "list" command to get ID.
