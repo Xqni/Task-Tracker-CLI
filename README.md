@@ -13,7 +13,7 @@ Some things to note are that this program relies on some hard-coded code blocks,
 
 ```python
 task-cli: add I need to publish this project.
-Output: Task added successfully (ID: 1)
+# Output: Task added successfully (ID: 1)
 
 task-cli: list
 """This will list all tasks in 'tasks.json' file"""
