@@ -35,4 +35,4 @@ To see a detailed documentation (beginner level), please refer to the help file 
  - [Readme](https://readme.so/)
  - [Task Tracker Project](https://roadmap.sh/projects/task-tracker)
  - [Roadmap.sh](https://roadmap.sh/roadmaps)
- - [My YouTube channel](https://www.youtube.com/@damianqt)
+ - [ChatGPT](https://www.chatgpt.com/)
