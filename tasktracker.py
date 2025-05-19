@@ -290,4 +290,3 @@ def main():
 if __name__ == "__main__":
     print("\nWelcome, to get started type 'help' or '-h' to view help file.\n")
     main()
-    help_file()
