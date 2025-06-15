@@ -4,7 +4,7 @@
 A simple command line program in Python programming language to track your tasks. Beginner level project, however I tried to implement intermediate level code wherever possible. 
 
 ## Hello 👋
-Thank you for checking my project, it was my first actual project so if you find any mistakes please let me and I will try to imporve it.
+Thank you for checking my project, it was my first actual project so if you find any mistakes please let me know and I will try to imporve it.
 
 Some things to note are that this program relies on some hard-coded code blocks, even though I tried to be as programmatic as possible. At the end of the day, it still is a beginner level project :)
 
